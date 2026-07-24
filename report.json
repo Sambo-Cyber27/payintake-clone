@@ -1,0 +1,27 @@
+{
+  "url": "https://payintake.com/payintake",
+  "createdAt": "2026-07-23T23:59:31.614Z",
+  "assetCount": 44,
+  "missingCount": 0,
+  "missing": [],
+  "mode": "frozen",
+  "strippedCount": 6,
+  "viewportDocuments": "separate",
+  "verification": {
+    "desktop": {
+      "mismatch": 0.01716999472782391,
+      "match": 0.9828300052721761,
+      "origHeight": 9273,
+      "cloneHeight": 9273,
+      "blockedExternalRequests": 1
+    },
+    "mobile": {
+      "mismatch": 0.037859914135602656,
+      "match": 0.9621400858643974,
+      "origHeight": 42918,
+      "cloneHeight": 42711,
+      "blockedExternalRequests": 1
+    }
+  },
+  "variantShim": 0
+}

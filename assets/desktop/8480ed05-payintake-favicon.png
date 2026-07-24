@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Almost there | Blink</title>
+  <style>
+    *,*::before,*::after { margin:0; padding:0; box-sizing:border-box; }
+    html,body { height:100%; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background:#fafafa;
+      color:#111;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      padding:24px;
+      -webkit-font-smoothing:antialiased;
+    }
+    .card {
+      text-align:center;
+      max-width:440px;
+      padding:48px 32px;
+    }
+    .logo {
+      width:40px;
+      height:40px;
+      margin:0 auto 28px;
+      display:block;
+    }
+    .badge {
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      font-size:12px;
+      font-weight:500;
+      color:#0a7f3f;
+      background:#e7f7ee;
+      padding:6px 12px;
+      border-radius:999px;
+      margin-bottom:20px;
+    }
+    .badge::before {
+      content:"";
+      width:6px;
+      height:6px;
+      background:#0a7f3f;
+      border-radius:50%;
+    }
+    h1 {
+      font-size:22px;
+      font-weight:600;
+      letter-spacing:-0.01em;
+      margin:0 0 12px;
+      color:#111;
+    }
+    p.lead {
+      color:#555;
+      font-size:15px;
+      line-height:1.55;
+      margin:0 0 28px;
+    }
+    .steps {
+      text-align:left;
+      background:#fff;
+      border:1px solid #ececec;
+      border-radius:12px;
+      padding:20px 22px;
+      margin:0 0 28px;
+    }
+    .steps ol {
+      list-style:none;
+      counter-reset:step;
+    }
+    .steps li {
+      counter-increment:step;
+      position:relative;
+      padding-left:32px;
+      font-size:14px;
+      color:#333;
+      line-height:1.5;
+    }
+    .steps li + li { margin-top:14px; }
+    .steps li::before {
+      content:counter(step);
+      position:absolute;
+      left:0;
+      top:0;
+      width:22px;
+      height:22px;
+      background:#111;
+      color:#fff;
+      border-radius:50%;
+      font-size:11px;
+      font-weight:600;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+    .steps b { color:#111; font-weight:600; }
+    a.btn {
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      background:#111;
+      color:#fff;
+      padding:11px 22px;
+      border-radius:8px;
+      text-decoration:none;
+      font-size:14px;
+      font-weight:500;
+      transition:background 0.15s ease;
+    }
+    a.btn:hover { background:#000; }
+    .built {
+      margin-top:36px;
+      font-size:12px;
+      color:#aaa;
+    }
+    .built a { color:#888; text-decoration:none; }
+    .built a:hover { color:#111; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img class="logo" src="https://blink.new/blink/blink-logo-icon--dark.svg" alt="Blink" onerror="this.style.display='none'">
+    <span class="badge">Domain connected</span>
+    <h1>Almost there — publish your site</h1>
+    <p class="lead">Your custom domain is connected to Blink, but you haven't published your project yet. Once you publish, your site will go live here.</p>
+    <div class="steps">
+      <ol>
+        <li>Open your project in <b>Blink</b>.</li>
+        <li>Click the <b>Publish</b> button in the top right.</li>
+        <li>Wait a few seconds — your changes will appear here.</li>
+      </ol>
+    </div>
+    <a class="btn" href="https://blink.new" target="_blank" rel="noopener">Open Blink →</a>
+    <p class="built">Built with <a href="https://blink.new">Blink</a></p>
+  </div>
+</body>
+</html>
